@@ -5,3 +5,8 @@ h1 {
 h2 {
     color: yellow;
 }
+
+h3 {
+    color: blueviolet;
+    font-size: 100px;
+}
