@@ -63,10 +63,20 @@
   background-color: yellow;
 }
 
+   
+
 @media (max-width: 767px) {
     .card {
       width: 100%;
+      flex-grow: 0;
     }
   }
 
-  
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    #sushi-card {
+        flex-grow: 1;
+    }
+
+  }
