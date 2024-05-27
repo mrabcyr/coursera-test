@@ -9,10 +9,16 @@
   margin: 0 auto;
 }
 
-.card-wrapper {
+.card-wrapper-1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.card-wrapper-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -70,3 +76,31 @@
       width: 100%;
     }
   }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card-wrapper-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+  .card-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+  #chicken-card , #beef-card {
+    width: 40%;
+    display: flex;
+  }
+
+  #sushi-card {
+    width: 82.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
