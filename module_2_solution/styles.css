@@ -1,23 +1,26 @@
 .main-container {
-font-family: "Montserrat", sans-serif;
-font-weight: 700;
-font-size: 16px;
-color: black;
-max-width: 1200px;
-color: #322C2B;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  max-width: 1200px;
+  color: #322c2b;
+
+  margin: 0 auto;
 }
 
 .card-wrapper {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 32px;
-    text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
 }
 
 .card {
-    border: 2px solid #322C2B;
-    width: 320px;
+  border: 2px solid #322c2b;
+  width: 320px;
 }
