@@ -3,23 +3,17 @@
   font-weight: 700;
   font-size: 16px;
   color: black;
-  max-width: 1600px;
+  max-width: 1200px;
   color: #322c2b;
-
   margin: 0 auto;
 }
 
-.card-wrapper-1 {
+.card-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card-wrapper-2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .title {
   font-weight: bold;
@@ -31,7 +25,7 @@
 .card {
   position: relative;
   border: 2px solid #322c2b;
-  width: 440px;
+  width: 360px;
   background-color: #ececec;
   margin: 10px;
 }
@@ -78,17 +72,12 @@
   }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .card-wrapper-1 {
+  .card-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   }
 
-  .card-wrapper-2 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  }
 
   #chicken-card , #beef-card {
     width: 40%;
@@ -100,7 +89,4 @@
   }
 }
 
-@media (min-width: 1200px) {
- 
-}
 
