@@ -6,10 +6,7 @@
   width: 100%;
   margin: 0 auto;
   font-family: "Baloo Da 2", sans-serif;
-  font-weight: 400;
-  line-height: 100%;
   color: #262323;
-  display: flex;
 }
 
 .title {
@@ -31,13 +28,11 @@
   background-color: #D8D8D8;
   font-weight: 400;
   margin-top: 24px;
-  overflow:auto;
-  
 }
 
 .card-wrapper {
     display: flex;
-    max-height: 400px;
+    flex-wrap:wrap;
 }
 
 .card__title {
@@ -69,15 +64,3 @@
     background-color: yellow;
 }
 
-@media (min-width: 968px) and (max-width: 1199px) {
-    .card {display: flex;}
-    #card-1 {
-        width: 40%;
-    }
-    #card-2 {
-        width: 40%;
-    }
-    #card-3 {
-        width: 80%;
-    }
-}
