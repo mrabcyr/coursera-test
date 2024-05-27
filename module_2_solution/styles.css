@@ -21,6 +21,18 @@
 }
 
 .card {
+  position: relative;
   border: 2px solid #322c2b;
   width: 320px;
+}
+
+.card__title {
+    border: 2px solid #322c2b;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card__description {
+    margin-top: 24px;
 }
