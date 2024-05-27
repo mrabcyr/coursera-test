@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   font-family: "Baloo Da 2", sans-serif;
@@ -33,6 +33,7 @@
 .card-wrapper {
     display: flex;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 
 .card__title {
