@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container {
   max-width: 1200px;
   width: 100%;
@@ -5,10 +8,76 @@
   font-family: "Baloo Da 2", sans-serif;
   font-weight: 400;
   line-height: 100%;
-  color: #000;
+  color: #262323;
+  display: flex;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    text-align: center;
 }
 
 .card {
-  width: 386px;
-  border: 2px solid #000;
+  position: relative;
+  width: 364px;
+  border: 3px solid #000;
+  margin-right: 28px;
+  margin-left: 10px;
+  color:#262323;
+  padding: 24px;
+  background-color: #D8D8D8;
+  font-weight: 400;
+  margin-top: 24px;
+  overflow:auto;
+  
+}
+
+.card-wrapper {
+    display: flex;
+    max-height: 400px;
+}
+
+.card__title {
+    border: 2px solid #000;
+    padding: 8px;
+    margin: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 128px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.card__description {
+    margin-top: 48px;
+}
+
+#card-title-2 {
+    color: white;
+    background-color: red;
+}
+
+#card-title-1 {
+    background-color: pink;
+}
+
+#card-title-3 {
+    background-color: yellow;
+}
+
+@media (min-width: 968px) and (max-width: 1199px) {
+    .card {display: flex;}
+    #card-1 {
+        width: 40%;
+    }
+    #card-2 {
+        width: 40%;
+    }
+    #card-3 {
+        width: 80%;
+    }
 }
