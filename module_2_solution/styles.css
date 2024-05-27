@@ -11,7 +11,7 @@
 
 .card-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -19,6 +19,7 @@
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -26,6 +27,7 @@
   border: 2px solid #322c2b;
   width: 440px;
   background-color: #ececec;
+  margin: 10px;
 }
 
 .card__title {
@@ -60,3 +62,11 @@
   font-size: 24px;
   background-color: yellow;
 }
+
+@media (max-width: 767px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+ 
