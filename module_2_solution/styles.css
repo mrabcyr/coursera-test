@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 16px;
   color: black;
-  max-width: 1200px;
+  max-width: 1400px;
   color: #322c2b;
 
   margin: 0 auto;
@@ -23,7 +23,9 @@
 .card {
   position: relative;
   border: 2px solid #322c2b;
-  width: 320px;
+  width: 440px;
+  margin-right: 48px;
+  background-color: #ECECEC;
 }
 
 .card__title {
@@ -31,8 +33,29 @@
     position: absolute;
     right: 0;
     top: 0;
+    width: 160px;
+    text-align: center;
+    height: 36px;
+    padding: 4px;
 }
 
-.card__description {
-    margin-top: 24px;
+.card__discription {
+    margin-top: 64px;
+    padding-left: 12px;
+}
+
+#chicken {
+    font-size: 24px;
+    background-color: pink;
+}
+
+#beef {
+    font-size: 24px;
+    background-color: red;
+    color: white;
+}
+
+#sushi {
+    font-size: 24px;
+    background-color: yellow;
 }
